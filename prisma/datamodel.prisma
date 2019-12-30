@@ -1,0 +1,16 @@
+
+type Message{
+  id: ID! @id
+  chat: Chat!
+  sender: String! @unique
+  reciever: String! @unique
+  content: String!
+  createdAt: String!
+}
+
+type Chat {
+  id: ID! @id
+  user1: String
+  user2: String
+  chat: [Message]!
+}
