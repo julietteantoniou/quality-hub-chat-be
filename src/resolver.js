@@ -28,7 +28,9 @@ const resolvers = {
         id: userId,
         name: args.userName
       })
+      return 'successfully created'
     }
+
   },
 
   // Subscription: {
