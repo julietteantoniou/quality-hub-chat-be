@@ -22,10 +22,9 @@ const resolvers = {
 
     //   return message
     // }
-   createUser(parent, args, context){
-      const userId = getUserId(context);
+   createChatUser(parent, args, context){
       chatkit.createUser({
-        id: userId,
+        id: args.userId,
         name: args.userName
       })
       return 'successfully created'

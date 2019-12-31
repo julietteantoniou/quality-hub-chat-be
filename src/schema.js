@@ -33,7 +33,7 @@ type Mutation {
 
  
 
-  createUser(userName: String!) : String
+  createChatUser(userName: String!, userId: String!) : String
 }
 
 `
