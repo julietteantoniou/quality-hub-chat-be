@@ -14,7 +14,7 @@
   "dependencies": {
     "@apollo/federation": "^0.11.2",
     "@pusher/chatkit-server": "^2.4.0",
-    "apollo-server": "^2.9.14",
+    "apollo-server": "^2.14.2",
     "dotenv": "^8.2.0",
     "graphql-yoga": "^1.18.3",
     "jsonwebtoken": "^8.5.1",
